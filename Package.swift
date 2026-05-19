@@ -18,7 +18,7 @@ let package = Package(
         .target(
         name: "YF_Utils_Target",
         dependencies: [
-            "YF_Utils_Binary"
+            "YF_Utils"
         ]
         ),
         .binaryTarget(
