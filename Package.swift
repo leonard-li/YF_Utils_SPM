@@ -16,13 +16,13 @@ let package = Package(
     ],
     targets: [
         .target(
-        name: "YF_Utils_Target",
-        dependencies: [
-            "YF_Utils"
-        ]
+            name: "YF_Utils_Target",
+            dependencies: [
+                "YF_Utils_Binary"
+            ]
         ),
         .binaryTarget(
-            name: "YF_Utils",
+            name: "YF_Utils_Binary",
             url: "https://mvn.yifants.cn/artifactory/fineboost-spm/utils/1.2.9/YFUtils.xcframework.zip",
             checksum: "71ed02a99a353f34d55d6e911e9d6010eeba696aa596d574aa482c87f9d33608"
         )
