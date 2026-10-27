@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "YF_Utils",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -23,8 +23,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "YF_Utils_Binary",
-            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/utils/1.2.9/YFUtils.xcframework.zip",
-            checksum: "71ed02a99a353f34d55d6e911e9d6010eeba696aa596d574aa482c87f9d33608"
+            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/utils/1.3.0/YFUtils.xcframework.zip",
+            checksum: "66133aa58f32ce88aa5c8085422e0f653e84db3fb406964e7ed630af6272af49"
         )
     ]
 )
